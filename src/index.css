@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base {
+  body, html {
+    background: oklch(96.8% 0.007 247.896);
+    color: #454b55;
+  }
+}
+
+body,html{
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+  overflow-y: auto;
+}
